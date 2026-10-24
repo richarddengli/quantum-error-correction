@@ -1,0 +1,20 @@
+name: stim-qec
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.14
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+      - stim==1.16.0
+      - sinter==1.16.0
+      - pymatching==2.4.0
